@@ -1,11 +1,14 @@
-import aboutUs from "./pages/aboutUs";
+import AboutUs from "./pages/AboutUs";
+//Global Styles
+import { GlobalStyle } from "./components/GlobalStyles";
+import styled from "styled-components";
 
 function App() {
   return (
-    <div>
-      <h1>Film</h1>
-      <aboutUs />
-    </div>
+    <>
+      <GlobalStyle />
+      <AboutUs />
+    </>
   );
 }
 
